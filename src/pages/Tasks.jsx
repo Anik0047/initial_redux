@@ -22,7 +22,7 @@ const Tasks = () => {
               <BellIcon className="h-6 w-6" />
             </button>
             <button
-              onClick={() => setIsOpen(!isOpen)}
+              onClick={() => setIsOpen(!isOpen)} 
               className="btn btn-primary"
             >
               Add Task
