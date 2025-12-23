@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 
 const MainLayout = () => {
   return (
-    <div className="flex">
+    <div className="flex gap-5">
       <div className="w-[80px]">
         <Sidebar />
       </div>
